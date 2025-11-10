@@ -35,7 +35,7 @@ FastAPI-сервис для учёта инцидентов.
 
 ```bash
 git clone https://github.com/CapitanGrant/incident_scooter
-cd ucar-top-doer
+cd incident_scooter
 ```
 
 2. Для быстрого запуска с помощью Docker:
@@ -87,4 +87,5 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 ```bash
 http://localhost:8000/docs
+
 ```
